@@ -2,10 +2,6 @@
   hosts: local
   become: yes
   tasks:
-    - name: Update apt package cache
-      apt:
-        update_cache: yes
-
     - name: Log in to Docker Hub
       community.docker.docker_login:
         registry_url: https://index.docker.io/v1/
