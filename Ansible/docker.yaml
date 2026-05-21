@@ -13,7 +13,7 @@
         name: "azam2706/petstore"
         tag: latest
         build:
-          path: /var/lib/jenkins/workspace/petstorepipeline
+          path: /var/lib/jenkins/workspace/petstore
         push: yes
         source: build
 
